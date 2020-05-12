@@ -1,1 +1,3 @@
-Basic dotfiles. Source to $HOME what's necessary.
+Basic dotfiles. 
+
+`ln -s` to $HOME what's necessary.
