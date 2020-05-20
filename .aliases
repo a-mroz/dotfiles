@@ -2,8 +2,9 @@
 alias ctrlc='xclip -selection c'
 alias ctrlv='xclip -selection c -o'
 
-# Compile LateX document with docker image
-alias latex-docker='docker run --rm -i --user="$(id -u):$(id -g)" -v $PWD:/data blang/latex "$@"'
+# Compile LateX document with docker image - requires script from https://github.com/blang/latex-docker
+alias latex-docker='latexdockercmd.sh latexmk -cd -f -interaction=batchmode -pdf "$@"'
+alias latex-docker-clean='latexdockercmd.sh latexmk -C'
 
 alias myip="ip -br -c a"
 alias process="ps aux"
