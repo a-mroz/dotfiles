@@ -21,7 +21,7 @@ antigen bundle lukechilds/zsh-better-npm-completion
 antigen bundle lukechilds/zsh-nvm
 
 # SDK Man
-antigen bundle matthieusb/zsh-sdkman
+#antigen bundle matthieusb/zsh-sdkman
 
 # Theme
 antigen theme robbyrussell
@@ -61,3 +61,4 @@ fi
 if [ -f ~/.zshrc.local ]; then
   . ~/.zshrc.local
 fi
+
