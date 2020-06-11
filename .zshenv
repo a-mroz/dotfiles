@@ -28,9 +28,6 @@ PATH=$ADR_HOME/src:$PATH
 
 export PATH
 
-# NVM - Node Version Manager
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -51,3 +48,4 @@ unset __conda_setup
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$SDKMAN_DIR/bin/sdkman-init.sh" ]] && source "$SDKMAN_DIR/bin/sdkman-init.sh"
+
